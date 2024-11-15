@@ -9,7 +9,7 @@ st.title("Airline Sentiment Analysis")
 # Load the dataset
 @st.cache
 def load_data():
-    url = "https://raw.githubusercontent.com/Manohar-mata/Tweet1/refs/heads/main/Tweets.csv"
+    url = "Tweets.csv"
     return pd.read_csv(url)
 
 df = load_data()
